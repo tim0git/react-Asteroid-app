@@ -1,9 +1,18 @@
 .App {
   text-align: center;
+  padding: 0.5rem;
 }
 
-.titleContainer{
-  border: 1px solid lightcoral;
+.titleContainer {
+}
+.astroidDataCardContainer {
+  text-align: left;
+  background-color: lightgray;
+  border-radius: 0.25rem;
+}
+
+.astroidDataCardContainer h4 {
+  text-align: center;
 }
 
 .AppHeader {
@@ -15,4 +24,50 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.classChartContainer {
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.28);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.28);
+}
+
+.classChart {
+  margin-left: -10px;
+  border-radius: 35px;
+}
+
+.dataCentreContainer {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paginationButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gridDataCard {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.searchContainer{
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+hr{
+  min-width:10%;
+}
+
+.ifFalseHide{
+  display: none;
 }
